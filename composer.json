@@ -1,5 +1,5 @@
 {
-  "name": "albertotain/AclManager",
+  "name": "albertotain/acl-manager",
   "description": "AclManager plugin for CakePHP 4",
   "type": "cakephp-plugin",
   "license": "MIT",
