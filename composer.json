@@ -1,0 +1,27 @@
+{
+  "name": "albertotain/AclManager",
+  "description": "AclManager plugin for CakePHP 4",
+  "type": "cakephp-plugin",
+  "license": "MIT",
+  "require": {
+        "php": ">=7.4",
+	"cakephp/cakephp": "^4.0",
+	"composer/installers": "*",
+	"cakephp/plugin-installer": "~1.2",
+        "cakephp/acl": "^0.7.1"
+  },
+  "require-dev": {
+	"phpunit/phpunit": "^5.7.14|^6.0"
+  },
+  "autoload": {
+	"psr-4": {
+	  "AclManager\\": "src/"
+	}
+  },
+  "autoload-dev": {
+	"psr-4": {
+	  "AclManager\\Test\\": "tests/",
+	  "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
+	}
+  }
+}
